@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">IVCARE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtviewAbout">About</string>
+    <string name="txtviewFaq">Faq</string>
+    <string name="txtviewHome">Home</string>
+    <string name="apploginlogo">apploginlogo</string>
+    <string name="txtviewLoginlog">LOGIN</string>
+    <string name="txtusernamelog">Username</string>
+    <string name="txtpasswordlog">Password</string>
+    <string name="btnLoginlog">LOGIN</string>
+    <string name="btnRegisterlog">REGISTER</string>
+    <string name="imgappregisterlogo">imgappregisterlogo</string>
+    <string name="textviewRegisterreg">REGISTER</string>
+    <string name="txtusernamereg">Username</string>
+    <string name="txtpasswordreg">Password</string>
+    <string name="txtconfirm_passreg">Confirm Pass</string>
+    <string name="btnRegisterreg">REGISTER</string>
+    <string name="btnLoginreg">LOGIN</string>
+    <string name="optionsmenufaq">FAQ</string>
+    <string name="optionsmenuabout">About</string>
+    <string name="imgnavheaderlogo">imgnavheaderlogo</string>
+    <string name="navfaq">FAQ</string>
+    <string name="navabout">About</string>
+    <string name="navhome">Home</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="user_s_name">User\'s name</string>
+    <string name="user_s_email">User\'s email</string>
+    <string name="user_s_status">User\'s status</string>
+    <string name="user_s_role">User\'s role</string>
+</resources>

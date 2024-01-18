@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ivcare.view.RegisterFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signupbg">
+
+        <ImageView
+            android:id="@+id/imgappregisterlogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/imgappregisterlogo"
+            android:src="@drawable/logopic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtviewRegisterreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/textviewRegisterreg"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgappregisterlogo"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtUsernamereg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_bg"
+            android:drawableStart="@drawable/person_icon"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/txtusernamereg"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="#5a5858"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtviewRegisterreg"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtPasswordreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_bg"
+            android:drawableStart="@drawable/lock_icon"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/txtpasswordreg"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColorHint="#5a5858"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtUsernamereg"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtPasswordconfirmreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_bg"
+            android:drawableStart="@drawable/lock_icon"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/txtconfirm_passreg"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColorHint="#5a5858"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPasswordreg"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnRegisterreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/btnRegisterreg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPasswordconfirmreg"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/btnLoginreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/btnLoginreg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegisterreg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
